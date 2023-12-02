@@ -1,11 +1,11 @@
 {
-	"description": "My hobby projects, most of them are Nextjs apps deployed to Vercel.",
-	"githubUsername": "octocat",
-	"avatarUrl": "",
-	"displayName": "",
-	"email": "",
-	"projects": {
-		"blacklist": [],
-		"heroNames": []
-	}
+  "description": "My hobby projects, most of them are Nextjs apps deployed to Vercel.",
+  "githubUsername": "elvisciuffetelli",
+  "avatarUrl": "",
+  "displayName": "Elvis Ciuffetelli",
+  "email": "ciuffetellielvis@gmail.com",
+  "projects": {
+    "blacklist": [],
+    "heroNames": []
+  }
 }
