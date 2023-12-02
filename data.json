@@ -5,7 +5,7 @@
   "displayName": "Elvis Ciuffetelli",
   "email": "ciuffetellielvis@gmail.com",
   "projects": {
-    "blacklist": [],
+    "blacklist": ["elvisciuffetelli"],
     "heroNames": []
   }
 }
