@@ -5,7 +5,14 @@
   "displayName": "Elvis Ciuffetelli",
   "email": "ciuffetellielvis@gmail.com",
   "projects": {
-    "blacklist": ["elvisciuffetelli"],
+    "blacklist": [
+      "elvisciuffetelli",
+      "express-auth-CRUD",
+      "snippets",
+      "cypress-playground",
+      "chronos-timesheet",
+      "react-testing-library"
+    ],
     "heroNames": []
   }
 }
