@@ -1,8 +1,6 @@
 # 🔗 [https://www.elvisciuffetelli.com/](https://www.elvisciuffetelli.com)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/import?repository-url=https://github.com/elvisciuffetelli/personal-website&env=GH_TOKEN,VC_TOKEN)
-
-My personal portfolio website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) and deployed to [Vercel](https://vercel.com/). Based on [chronark's site](https://chronark.com/). Some ideas borrowed from [leerob/leerob.io](https://github.com/leerob/leerob.io).
+My personal portfolio website, built with [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) and deployed to [Vercel](https://vercel.com/). Some ideas borrowed from [leerob/leerob.io](https://github.com/leerob/leerob.io).
 
 It is supposed to be used as a **template for other GitHub users' portfolios**. Data about user and projects are gathered via GitHub and Vercel API.
 
@@ -14,12 +12,7 @@ It is supposed to be used as a **template for other GitHub users' portfolios**. 
 
 ## Running Locally
 
-```sh
-git clone https://github.com/jirihofman/portfolio.git
-cd portfolio
-```
-
-Create a `.env` file similar to [`.env.example`](https://github.com/jirihofman/profile/blob/main/.env.example).
+Create a `.env` file
 
 ```sh
 mv .env.example .env.local
@@ -38,7 +31,7 @@ Then install dependencies and run the development server:
 ```sh
 # Install dependencies.
 npm install
-# Replace jirihofman's personal info with octocat's.
+# Replace personal info
 npm run setup
 # Start hacking.
 npm dev
@@ -56,7 +49,7 @@ Please remove all of my personal information in `data.json` before deploying you
 IS_TEMPLATE=false
 ```
 
-in your ENVs to prevent `npm build` from reverting `data.json` back to Octocat's data.
+in your ENVs to prevent `npm build` from reverting `data.json` back to default data.
 
 ### To check before deploying
 
